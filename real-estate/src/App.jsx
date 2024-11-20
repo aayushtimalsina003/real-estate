@@ -1,10 +1,10 @@
 import React from "react";
-import Navbar from "./components/Navbar.jsx";
+import Header from "./components/Header.jsx";
 
 const App = () => {
   return (
-    <div>
-      <Navbar />
+    <div className="w-full overflow-hidden">
+      <Header />
     </div>
   );
 };
