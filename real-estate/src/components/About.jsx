@@ -24,32 +24,34 @@ const About = () => {
         />
         <div className="flex flex-col items-center md:items-start mt-10 text-gray-700">
           <div className="grid grid-cols-2 gap-6 md:gap-10 w-full 2xl:pr-28">
-            <p className="text-4xl font-medium text-gray-800">10+</p>
-            <p>Years of Experience</p>
+            <div>
+              <p className="text-4xl font-medium text-gray-800">10+</p>
+              <p>Years of Experience</p>
+            </div>
+            <div>
+              <p className="text-4xl font-medium text-gray-800">12+</p>
+              <p>Projects Completed</p>
+            </div>
+            <div>
+              <p className="text-4xl font-medium text-gray-800">20+</p>
+              <p>Min. Sq. Ft. Delivered</p>
+            </div>
+            <div>
+              <p className="text-4xl font-medium text-gray-800">25+</p>
+              <p>Ongoing Projects</p>
+            </div>
           </div>
-          <div className="grid grid-cols-2 gap-6 md:gap-10 w-full 2xl:pr-28">
-            <p className="text-4xl font-medium text-gray-800">12+</p>
-            <p>Projects Completed</p>
-          </div>
-          <div className="grid grid-cols-2 gap-6 md:gap-10 w-full 2xl:pr-28">
-            <p className="text-4xl font-medium text-gray-800">20+</p>
-            <p>Min. Sq. Ft. Delivered</p>
-          </div>
-          <div className="grid grid-cols-2 gap-6 md:gap-10 w-full 2xl:pr-28">
-            <p className="text-4xl font-medium text-gray-800">25+</p>
-            <p>Ongoing Projects</p>
-          </div>
+          <p className="my-10 max-w-lg">
+            Discover your dream property with our real estate platform. Explore
+            a wide range of homes, apartments, and commercial spaces tailored to
+            your needs. Whether you're buying, selling, or renting, we connect
+            you with trusted listings and expert guidance to make your property
+            journey seamless and stress-free.
+          </p>
+          <button className="bg-blue-600 text-white px-8 py-2 rounded">
+            Learn More..
+          </button>
         </div>
-        <p className="my-10 max-w-lg">
-          Discover your dream property with our real estate platform. Explore a
-          wide range of homes, apartments, and commercial spaces tailored to
-          your needs. Whether you're buying, selling, or renting, we connect you
-          with trusted listings and expert guidance to make your property
-          journey seamless and stress-free.
-        </p>
-        <button className="bg-blue-600 text-white px-8 py-2 rounded">
-          Learn More..
-        </button>
       </div>
     </div>
   );
