@@ -5,7 +5,7 @@ const Projects = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [cardsToShow, setCardsToShow] = useState(1);
 
-  // Cards to display according to the screen size 
+  // Cards to display according to the screen size
   useEffect(() => {
     const updateCardsToShow = () => {
       if (window.innerWidth >= 1024) {
@@ -81,7 +81,8 @@ const Projects = () => {
                     {project.title}
                   </h2>
                   <p className="text-gray-500 text-sm">
-                    {project.price} <span>|</span> {project.location}
+                    {project.price} <span className="px-1">|</span>{" "}
+                    {project.location}
                   </p>
                 </div>
               </div>
