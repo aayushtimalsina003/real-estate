@@ -24,7 +24,7 @@ const Header = () => {
           <a href="#Projects" className="border border-white px-8 py-3 rounded">
             Projects
           </a>
-          <a href="#Contact" className="bg-blue-500 px-8 py-3 rounded">
+          <a href="#Contact" className="bg-stone-800 px-8 py-3 rounded">
             Contact Us
           </a>
         </div>
